@@ -1,0 +1,37 @@
+
+/* input area css */
+.logo {
+    width: 15%;
+  }
+  img {
+  }
+  .logo img {
+    width: 100%;
+  }
+  .search-box-area {
+    width: 60%;
+  }
+  /* each book css */
+ 
+.card-img-top {
+    width: 80%;
+    margin: auto;
+    height: 250px;
+    margin-top: 29px;
+  }
+  .card-title {
+    font-weight: bold;
+    margin-bottom: 22px;
+  }
+  .card-text {
+    line-height: 10px;
+  }
+  .card-body {
+    text-align: center;
+  }
+  /* error massage */
+  .error-div {
+    text-align: center;
+    color: #8e8080;
+    font-size: 60px;
+  }

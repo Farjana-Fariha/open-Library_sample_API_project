@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootsrap css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <!-- css link  -->
+        <link rel="stylesheet" href="style.css">
+    <title>Online Book Shop</title>
+</head>
+
+<body>
+    <section class="">
+        <header>
+            <div class="container">
+                <div class="row my-5">
+                    <div class="logo">
+                        <img src="img/openlibrary-logo-tighter.svg" alt="">
+                    </div>
+                    <!-- searching box  -->
+                    <div id="search-text" class="search-box-area ms-5">
+                        <div class="input-box input-group mb-3">
+                            <input id="search-field" type="text" class="form-control" placeholder="Write the Book's name"
+                                aria-label="Book's name">
+                            <button onclick="searchBook()" class="btn btn-outline-secondary" type="button"
+                                id="button-addon2">Search</button>
+                        </div>
+                    </div>
+                    <!-- show how many search result found  -->
+                    <div id="result-quantity"></div>
+                    <!-- show error massage  -->
+                    <div id="error-massage"></div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- showing result  -->
+            <div id="display-result" class="row row-cols-1 row-cols-md-3 g-4">
+              
+              </div>
+        </main>
+    </section>
+    <!-- bootsrap js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+        <!-- js link  -->
+        <script src="app.js"></script>
+</body>
+
+</html>
